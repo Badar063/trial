@@ -1,0 +1,20 @@
+# --- Core Deployment & Web UI ---
+streamlit
+pandas
+numpy
+
+# --- Deep Learning and Scientific Computing ---
+tensorflow==2.* # Use a specific major version for stability
+keras
+scikit-learn
+
+# --- Visualization ---
+matplotlib
+seaborn
+
+# --- Image Handling (used indirectly by Streamlit/Pandas) ---
+Pillow
+
+# --- Data Acquisition (Required if running the setup_and_download_data function) ---
+# NOTE: Kaggle is specific to the development environment, but included if you run setup on the server.
+kaggle
