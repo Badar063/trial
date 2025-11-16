@@ -75,7 +75,7 @@ st.sidebar.markdown("""
 """)
 st.sidebar.image("https://img.freepik.com/free-vector/x-ray-illustration-design_23-2148560822.jpg?w=740", caption="Benchmarking Chest X-rays", use_column_width=True) # 
 
-[Image of a chest x-ray illustration]
+#[Image of a chest x-ray illustration]
 
 
 # --- 1. Performance Atlas Tab ---
@@ -160,4 +160,5 @@ with tab2:
             with col_rec_2:
                 reasoning = advisor.generate_reasoning(row['architecture'], selected_scenario_key)
                 st.success("💭 **Advisor Reasoning:**")
+
                 st.write(reasoning)
